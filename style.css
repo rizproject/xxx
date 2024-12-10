@@ -1,0 +1,28 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url('images/Black and White Aesthetic Elegant Minimalist Yoga Studio Logo_20241113_130538_0000.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    animation: fadeIn 1s;
+}
+
+.container {
+    background-color: rgba(230, 228, 228, 0.9); /* Transparansi lebih halus */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    max-width: 500px;
+    margin: auto;
+    transform: translateY(-10px);
+    animation: slideIn 0.5s forwards;
+}
+
+input,
+select {
+    background-color: #ffffff;
+    color: #000000;
+}
